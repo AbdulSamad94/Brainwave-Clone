@@ -7,7 +7,7 @@ import {
     chromecast,
     disc02,
     discord,
-    discordBlack,
+    linkedin,
     facebook,
     figma,
     file02,
@@ -297,9 +297,9 @@ import {
   export const socials = [
     {
       id: "0",
-      title: "Discord",
-      iconUrl: discordBlack,
-      url: "#",
+      title: "Linkedin",
+      iconUrl: linkedin,
+      url: "https://www.linkedin.com/in/abdul-samad-siddiqui-0183012b5/",
     },
     {
       id: "1",
@@ -311,18 +311,12 @@ import {
       id: "2",
       title: "Instagram",
       iconUrl: instagram,
-      url: "#",
-    },
-    {
-      id: "3",
-      title: "Telegram",
-      iconUrl: telegram,
-      url: "#",
+      url: "https://www.instagram.com/abdul_samad_siddiqui_9/",
     },
     {
       id: "4",
       title: "Facebook",
       iconUrl: facebook,
-      url: "#",
+      url: "https://www.facebook.com/abdulsamad.siddiqui.1048",
     },
   ];

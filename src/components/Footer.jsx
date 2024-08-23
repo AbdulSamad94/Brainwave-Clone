@@ -9,6 +9,9 @@ const Footer = () => {
         <p className="caption text-n-4 lg:block">
           © {new Date().getFullYear()}.AbdulSamadSiddiqui.All rights reserved.
         </p>
+        <a className="text-sm text-neutral-500 hover:underline duration-300" href="">LinkedIn</a>
+        <a className="text-sm text-neutral-500 hover:underline duration-300" href="">Instagram</a>
+        <a className="text-sm text-neutral-500 hover:underline duration-300" href="">Facebook</a>
 
         <ul className="flex gap-5 flex-wrap">
           {socials.map((item) => (
