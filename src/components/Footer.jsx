@@ -9,9 +9,9 @@ const Footer = () => {
         <p className="caption text-n-4 lg:block text-center">
           © {new Date().getFullYear()}.AbdulSamadSiddiqui.All rights reserved.
         </p>
-        <a className="text-sm text-neutral-500 hover:underline duration-300" href="">LinkedIn</a>
-        <a className="text-sm text-neutral-500 hover:underline duration-300" href="">Instagram</a>
-        <a className="text-sm text-neutral-500 hover:underline duration-300" href="">Facebook</a>
+        <a className="text-sm text-neutral-500 hover:underline duration-300" href="https://www.linkedin.com/in/abdul-samad-siddiqui-0183012b5/">LinkedIn</a>
+        <a className="text-sm text-neutral-500 hover:underline duration-300" href="https://www.instagram.com/abdul_samad_siddiqui_9/">Instagram</a>
+        <a className="text-sm text-neutral-500 hover:underline duration-300" href="https://www.facebook.com/abdulsamad.siddiqui.1048">Facebook</a>
 
         <ul className="flex gap-5 flex-wrap">
           {socials.map((item) => (
